@@ -8,14 +8,131 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="main-nav">
-        <div class="nav-links">
-            <a href="" class="nav-item active">Link 1</a>
-            <a href="" class="nav-item">Link 2</a>
-            <a href="" class="nav-item">Link 3</a>
-            <a href="" class="nav-item">Link 4</a>
+    <header>
+        <nav class="navbar">
+                <a href="/index.html" class="navbar__nav-link">
+                    <img src="/assets/images/logopgn.png" alt="" width="50">
+                    <ul class="navbar__nav-links-container">
+                        <li class="navbar__nav-item">
+                            <a href="/index.html" class="navbar__nav-link">Inicio</a>
+                        </li>
+                        <li class="navbar__nav-item">
+                            <a href="/pages/contact/contact.html" class="navbar__nav-link">Contacto</a>
+                        </li>
+                        <li class="navbar__nav-item">
+                            <a href="/pages/about-us/abouts-us.html" class="navbar__nav-link">Nosotros</a>
+                        </li>
+                        <li class="navbar__nav-item">
+                            <a href="/pages/register/register.html" class="navbar__nav-link">Registrarse</a>
+                        </li>
+                    </ul>
+                </a>
+        </nav>
+        <div class="user-navbar">
+            <div class="user-navbar__cart-icon-container">
+                <!-- TODO: add font icon and icon item -->
+                IC
+            </div>
+            <!-- TODO: avatar de la persona logueada o nombre --> 
         </div>
-    </nav>
+    </header>
+    <!--TODO: Implementar carousel en modulo 2-->
+    <main>
+        <section class="section-cards">
+            <header class="section-cards__header">
+                <div class="section-cards__title-container">
+                <h1 class="section-cards__title">
+                    Lorem ipsum dolor sit amet.
+                </h1>
+                <p class="section-cards__subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatum consequatur laudantium vel corporis nostrum.
+                </p>
+                </div>
+                <div class="section-cards__products-search-info">
+                    <div class="section-cards__products-count">
+                        Se encontraron x productos
+                    </div>
+                </div>
+            </header>
+            <div class="cards-container">
+                <h1 class="cards-container__category">
+                    CATEGORIA: OFERTAS
+                </h1>
+                <article class="card">
+                    <div class="card__header">
+                        <img src="#" alt="Product-image" class="card_img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title">
+                            PRODUCT NAME
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe eos enim corporis expedita non totam officia vitae nam fugiat?
+                        </p>
+                        <div class="card__price">
+                            $ XXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a href="#" class="card__button">Detalle</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <div class="whatsapp-container">
+        <a href="#" class="whatsapp-container__link">
+            <img src="#" alt="whatsapp-container__img" class="whatsapp-container__img">
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="footer__column">
+            <ul class="footer__social-media-container">
+                <li class="footer__social-media-item">
+                    <a href="#" class="footer_social-media-link">
+                        <!--Icono-->
+                        Facebook
+                    </a>
+                </li>
+                <li class="footer__social-media-item">
+                    <a href="#" class="footer_social-media-link">Instagram</a>
+                </li>
+                <li class="footer__social-media-item">
+                    <a href="#" class="footer_social-media-link">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <img src="#" alt="#" class="footer__logo">
+            <h1 class="footer__comprany-name">
+                NOMBRE DE LA EMPRESA
+            </h1>
+            <p class="footer__copyright">
+                Todos los derechos resarvados a pepito
+            </p>
+        </div>
+        <div class="footer__column">
+            <ul class="footer__contact-container">
+                <li class="footer__contact-item">
+                    <a href="#" class="footer_contact-link">
+                        <!--Icono-->
+                        Telefono
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <a href="#" class="footer_contact-link">Localizacion</a>
+                </li>
+                <li class="footer__contact-item">
+                    <a href="#" class="footer_contact-link">email</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
